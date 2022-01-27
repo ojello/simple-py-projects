@@ -20,13 +20,23 @@ for experimentNumber in range(10000):
             computer_choice = 'T'
             random_list = random_list + [computer_choice]
 print(random_list)
-# for i in random_list:
-#     print('hello')
+for i in random_list:
+    checkStreak = 0
+    if i == 'H' or i == 'T':
+        flagvalue = i
+        if flagvalue == i:
+            checkStreak += 1
 
+        # for i in random_list:
+        #     print('hello'
+        # start at index 0  "x" and check what the value is, set it as flagvalue
+        # compare each index after x to flagvalue
+        # assign 0 to variable checkStreak, if checkStreak hits 5 then you have a streak (+= numberOfStreak)
+        # (nested for loop) if you get true add 1 to the checkStreak until it hits 5, then increase numberofstreaks
+        # otherwise increase x by 1 and reassign flagvalue
 
-# Code that checks if there is a streak of 6 heads or tails in a row
+        # Code that checks if there is a streak of 6 heads or tails in a row
 
-
-# for experimentNumber in range(10000):
-# Code that checks if there is a streak of 6 heads or tails in a row.
-# print('Chance of streak: %s%%' % (numberOfStreaks / 100))
+        # for experimentNumber in range(10000):
+        # Code that checks if there is a streak of 6 heads or tails in a row.
+        # print('Chance of streak: %s%%' % (numberOfStreaks / 100))
